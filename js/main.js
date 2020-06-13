@@ -1,11 +1,22 @@
 
-     
-     
 
-     
-     var cpf = document.getElementById("cpf"); 
-       var nome = document.getElementById("nome");
+var cpf;
+var n; 
 
+     function capturar(){
+       cpf = document.getElementById("cpf").value; 
+       n = document.getElementById("nome").value;
+     
+       document.getElementById("nomeCadastrado").innerHTML = n;
+       document.getElementById("nomeCadastrado").innerHTML = cpf;
+
+
+     }
+
+
+
+
+   
        var hospitalA = 0;
        var hospitalB = 0;
        var distanciaA = 5;
@@ -31,11 +42,13 @@
                       if(distanciaA > distanciaB){
                         alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital B que é masi perto. ")
                         hospitalB = hospitalB +1;
+                        window.location.href = "usuario_finalizacao_consulta.html";
 
                       }else{
                         alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital A que é masi perto. ")
                         hospitalA = hospitalA +1;
-
+                        window.location.href = "usuario_finalizacao_consulta.html";
+                        document.getElementById("unidade").innerHTML = "va para a unidade A ";
 
                       }
    
@@ -43,10 +56,11 @@
               }else if(hospitalB < hospitalA){
                         alert("va para o hopital B, que tem uma fila menor! ")
                          hospitalB = hospitalB +1;
-
+                         window.location.href = "usuario_finalizacao_consulta.html";
                      }else{
                         alert("Vá para o hospital A , que esta com uma fila menor")
                         hospitalA = hospitalA +1;
+                        window.location.href = "usuario_finalizacao_consulta.html";
                  }
 
                

@@ -23,41 +23,37 @@
 
                 <!-- formulario -->
                 <form class="form" name="formulario" id="formulario" action=""  method="POST">
-
-                    <label class="label-input" for="">
+                  <label class="label-input" for="">
                   
                   <!-- campo nome -->
-                        <input type="text" name="nome" id="nome" placeholder="nome*" required >
+                        <input type="text" name="nome" id="nome" placeholder="  nome*" required >
                     </label>
-
-                  
+  
                   <!-- campo CPF  -->
                     <label class="label-input" for="">
                     <input type="text" name="cpf" id="cpf" \
-			        pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
-                        placeholder="CPF* - 000.000.000-00" required> 
+			            pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
+                        placeholder="  CPF* - 000.000.000-00" required> 
                      </label>
 
 
                      <!-- campo cep -->
                     <label class="label-input" for="">
-                        <input type="text" name="cep"  id="cep" placeholder="cep">
+                        <input type="text" name="cep"  id="cep" placeholder="  cep">
                     </label> 
-
-                         <button type="submit"  id="btn"  class="btn btn-primary" > Ir </button>
-                    
-
                 </form>
+              
+                <!-- bptão -->
+                  <button type="submit"  id="btn"  class="btn btn-primary"  onclick="capturar()"> Ir </button>
 
+           
+               
             </div>
 
 
         </div>
 
     </div>
-
     <script src="js/main.js"> </script>
-
-
 </body>
 </html>
