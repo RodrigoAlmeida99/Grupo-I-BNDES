@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #99CFFF;
+}
+.content {
+    background-color: #fff;
+    border-radius: 15px;
+    width: 960px;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.first-content{
+    display: flex;
+}
+
+.content::before {
+    content: "";
+    position: absolute;
+    background-color: #005BAB;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+
+<<<<<<< HEAD
+    left: 0;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+=======
+}
+.tittle-primeiro{
+    color: #fff;
+}
+
+.tittle-segundo{
+    color:#005BAB;
+}
+
+.segunda-coluna{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+>>>>>>> c460bec... mostrando alert
+}
+img{
+    width: 15%;
+    height: auto;
+}
+
+.descricao{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 150px;
+    align-self: center;
+    border: none;
+    margin-top: 1rem;
+}
+.btn-primary {
+    background-color: #005BAB;
+    border: 1px solid #344473;
+    transition: background-color .5s;
+    text-align: center;
+    text-decoration:none;
+}
+.btn-primary:hover {
+    background-color: white;
+    color: #005BAB;
+}
+.primeira-coluna{
+    text-align: center;
+    width: 40%;
+    z-index:10; 
+
+}
+.segunda-coluna{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.label-input {
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.form input {
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+}
