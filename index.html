@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EmergênciaSUS</title>
     <link rel="stylesheet" href="css/style.css">
+     <link rel="icon" href="Imagens/sus.png" type="image/png" />
 </head>
 <body>
     <div class="container">
@@ -18,14 +19,24 @@
 
             
             <div class="segunda-coluna">
-                <h2 class="tittle">Registro</h2>
+                <h2 class="tittle tittle-segundo">Registro</h2>
 
                 <form class="form" name="formulario" id="formulario" action=""  method="POST">
+
+                    <label class="label-input" for="">
                    <input type="text" name="nome" id="nome" placeholder="nome" required >
-                   <input type="text" name="cpf" id="cpf" \
+                    </label>
+
+                    <label class="label-input" for="">
+                    <input type="text" name="cpf" id="cpf" \
 			        pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
                         placeholder="CPF - 000.000.000-00" required> 
+                    </label>
+
+                    <label class="label-input" for="">
                         <input type="text" name="cep"  id="cep" placeholder="cep">
+                    </label> 
+
                          <button id="btn"  class="btn btn-primary" > Ir </button>
                     
 
