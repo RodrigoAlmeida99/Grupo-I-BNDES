@@ -16,12 +16,12 @@
                if(hospitalA == hospitalB){
                
                       if(distanciaA > distanciaB){
-                        alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital A que é masi perto. ")
-                        hospitalA = hospitalA +1;
-
-                      }else{
                         alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital B que é masi perto. ")
                         hospitalB = hospitalB +1;
+
+                      }else{
+                        alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital A que é masi perto. ")
+                        hospitalA = hospitalA +1;
 
 
                       }
