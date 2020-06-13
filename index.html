@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,13 +22,13 @@
             <div class="segunda-coluna">
                 <h2 class="tittle">Registro</h2>
 
-                <form class="form" name="formulario"  action=""  method="POST">
+                <form class="form" name="formulario"  action="js/main.js"  method="POST">
                    <input type="text" name="nome" id="nome" placeholder="nome" required >
                    <input type="text" name="cpf" \
 			        pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \
                         placeholder="CPF - 000.000.000-00" required> 
                         <input type="text" name="cep"  id="cep" placeholder="cep">
-                         <button   class="btn" > Ir </button>
+                         <button id="btn"  class="btn" > Ir </button>
                     
 
                 </form>
@@ -42,17 +42,7 @@
 
 
 
-    <script>
-        function validarFormulario(){
-            var nome = formulario.nome.nome;
-            var cpf = formulario.cpf.cpf;
-            var cep = formulario.cep.cep;
-
-           
-
-
-        }
-
+    <script src="js/main.js">
 
     </script>
 

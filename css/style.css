@@ -19,6 +19,14 @@
 
 }
 
+
+.primeira-coluna{
+
+    background-color: teal;
+}
+
+
+
 .form{
     display: flex;
     flex-direction: column;
