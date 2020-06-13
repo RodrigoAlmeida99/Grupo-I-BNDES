@@ -1,5 +1,9 @@
 
-       var cpf = document.getElementById("cpf"); 
+     
+     
+
+     
+     var cpf = document.getElementById("cpf"); 
        var nome = document.getElementById("nome");
 
        var hospitalA = 0;
@@ -8,11 +12,20 @@
        var distanciaB = 8;
 
 
-        
+       
+
+        //botão 
                var botao = document.getElementById("btn");
 
                botao.addEventListener('click', function() {
                 
+              //cheagem se os campos nome e cpf foram preenchidos
+                if(document.getElementById("nome").value.length < 3 || document.getElementById("cpf").value.length < 11 ){
+                  alert('Por favor, preencha os campoo');
+                  document.getElementById("nome").focus();
+
+                }else{
+                  
                if(hospitalA == hospitalB){
                
                       if(distanciaA > distanciaB){
@@ -37,11 +50,11 @@
                  }
 
                
-                
+                }
                 
                 } )
 
                 
-                
+              
             
             
