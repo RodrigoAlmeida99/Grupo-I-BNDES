@@ -41,6 +41,7 @@ body {
     border-bottom-left-radius: 15px;
 
 
+<<<<<<< HEAD
     left: 0;
 }
 
@@ -48,6 +49,13 @@ body {
     font-size: 28px;
     font-weight: bold;
     text-transform: capitalize;
+=======
+}
+
+.segunda-coluna{
+
+    
+>>>>>>> c460bec... mostrando alert
 }
 
 .tittle-primeiro{
