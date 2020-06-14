@@ -41,7 +41,7 @@ echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
             <div class="segunda-coluna">
                 <h2 class="tittle tittle-segundo">Seu código de atendimento é:</h2>
                     <p>DZX56789</p>    
-                     <img src="imagens/qrcode.png" alt="">                
+                     <img src="Imagens/qrcode.png" alt="">                
                     <h3 align="center"> Unidade com menor Fila próximo a você:</h3> 
                     <div id="write">
 
