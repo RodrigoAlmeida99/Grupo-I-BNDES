@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Agendamento Sus Emergencia</title>
-    
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="icon" href="Imagens/sus.png" type="image/png" />
+
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -27,7 +26,7 @@
 
 $nome = $_POST['nome'];
 $cpf = $_POST['cpf'];
-
+$hospEscolha = "<script>document.write(hospEscolha)</script>"
 
 echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
 ?>
@@ -40,10 +39,11 @@ echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
 
             
             <div class="segunda-coluna">
-                <h2 id="unidade" class="tittle tittle-segundo">Seu código de atendimento é:</h2>
+                <h2 class="tittle tittle-segundo">Seu código de atendimento é:</h2>
                     <p>DZX56789</p>    
                      <img src="Imagens/qrcode.png" alt="">                
-                    <h3 align="center"> </h3> 
+                    <h3 align="center"> Unidade com menor fila próximo a você:</h3> 
+                    echo $hospEscolha;
                     <div id="write">
 
                    
@@ -59,7 +59,7 @@ echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
 
 </div>
 </div></div>
-<script src="js/main.js" > </script>
+
 </body>
 
 </html>

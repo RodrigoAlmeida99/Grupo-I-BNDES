@@ -4,7 +4,8 @@
        var hospitalB = 0;
        var distanciaA = 0;
        var distanciaB = 0;
-
+       const hospEscolha;//teste para mostrar qual hospital foi escolhido 
+       
             distanciaA =  Math.floor(Math.random() * 3);
             distanciaB =  Math.floor(Math.random() * 3);
 
@@ -29,27 +30,32 @@
                       if(distanciaA > distanciaB){
                         alert("Ambos os hospitais estão com o mesmo número de atendimentos, vá para o hospital B que é mais próximo. ")
                         hospitalB = hospitalB +1;
+                        hospEscolha = "B";
                         window.location.href = "dados.php";
-                        
+
 
                       }else if (distanciaB > distanciaB){
                         alert("Ambos os hospitais estão com o mesmo número de atendimentos, vá para o hospital A que é mais próximo. ")
                         hospitalA = hospitalA +1;
+                        hospEscolha = "A";
                         window.location.href = "dados.php";
-                        document.getElementById('unidade').innerHTML = " Unidade com menor fila próximo a você: A ";
+                        document.getElementById("unidade").innerHTML = "va para a unidade A ";
                       
                        }else{
                           alert("Todos os hospitais estão com a mesma condição de atendimento, vá para o de sua preferencia.")
+                          hospEscolha = "Sua preferencia.";
                        }
    
                
               }else if(hospitalB < hospitalA){
                         alert("Vá para o hopital B, que tem uma menor fila. ")
                          hospitalB = hospitalB +1;
+                         hospEscolha = "B";
                          window.location.href = "dados.php";
                      }else{
                         alert("Vá para o hospital A , que esta com uma menor fila.")
                         hospitalA = hospitalA +1;
+                        hospEscolha = "A";
                         window.location.href = "dados.php";
                      }
 
