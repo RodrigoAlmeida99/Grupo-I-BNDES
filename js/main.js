@@ -49,13 +49,11 @@
               }else if(hospitalB < hospitalA){
                         alert("Vá para o hopital B, que tem uma menor fila. ")
                          hospitalB = hospitalB +1;
-                        
                          window.location.href = "dados.php";
                      }else{
                         alert("Vá para o hospital A , que esta com uma menor fila.")
                         hospitalA = hospitalA +1;
-                       
-                        window.location.href = "dados.php";
+                          window.location.href = "dados.php";
                      }
 
                
