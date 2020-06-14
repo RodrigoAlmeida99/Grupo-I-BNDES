@@ -42,12 +42,12 @@ var n;
                       if(distanciaA > distanciaB){
                         alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital B que é masi perto. ")
                         hospitalB = hospitalB +1;
-                        window.location.href = "usuario_finalizacao_consulta.html";
+                        window.location.href = "dados.php";
 
                       }else{
                         alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital A que é masi perto. ")
                         hospitalA = hospitalA +1;
-                        window.location.href = "usuario_finalizacao_consulta.html";
+                        window.location.href = "dados.php";
                         document.getElementById("unidade").innerHTML = "va para a unidade A ";
 
                       }
@@ -56,11 +56,11 @@ var n;
               }else if(hospitalB < hospitalA){
                         alert("va para o hopital B, que tem uma fila menor! ")
                          hospitalB = hospitalB +1;
-                         window.location.href = "usuario_finalizacao_consulta.html";
+                         window.location.href = "dados.php";
                      }else{
                         alert("Vá para o hospital A , que esta com uma fila menor")
                         hospitalA = hospitalA +1;
-                        window.location.href = "usuario_finalizacao_consulta.html";
+                        window.location.href = "dados.php";
                  }
 
                
