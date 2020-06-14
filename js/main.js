@@ -27,13 +27,13 @@
                if(hospitalA == hospitalB){
                
                       if(distanciaA > distanciaB){
-                        alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital B que é mais perto. ")
+                        alert("Ambos os hospitais estão com o mesmo número de atendimentos, vá para o hospital B que é mais próximo. ")
                         hospitalB = hospitalB +1;
                         window.location.href = "dados.php";
 
 
                       }else if (distanciaB > distanciaB){
-                        alert("Ambos os hospitais estao com o mesmo numero de atendimentos, Vá para o hopspital A que é mais perto. ")
+                        alert("Ambos os hospitais estão com o mesmo número de atendimentos, vá para o hospital A que é mais próximo. ")
                         hospitalA = hospitalA +1;
                         window.location.href = "dados.php";
                         document.getElementById("unidade").innerHTML = "va para a unidade A ";
@@ -44,11 +44,11 @@
    
                
               }else if(hospitalB < hospitalA){
-                        alert("va para o hopital B, que tem uma fila menor! ")
+                        alert("Vá para o hopital B, que tem uma menor fila. ")
                          hospitalB = hospitalB +1;
                          window.location.href = "dados.php";
                      }else{
-                        alert("Vá para o hospital A , que esta com uma fila menor")
+                        alert("Vá para o hospital A , que esta com uma menor fila.")
                         hospitalA = hospitalA +1;
                         window.location.href = "dados.php";
                      }

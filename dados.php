@@ -42,7 +42,7 @@ echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
                 <h2 class="tittle tittle-segundo">Seu código de atendimento é:</h2>
                     <p>DZX56789</p>    
                      <img src="Imagens/qrcode.png" alt="">                
-                    <h3 align="center"> Unidade com menor Fila próximo a você:</h3> 
+                    <h3 align="center"> Unidade com menor fila próximo a você:</h3> 
                     <div id="write">
 
                    
