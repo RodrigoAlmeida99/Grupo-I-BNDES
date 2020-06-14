@@ -32,14 +32,14 @@
                         hospitalB = hospitalB +1;
                         hospEscolha = "B";
                         window.location.href = "dados.php";
-                        
+
 
                       }else if (distanciaB > distanciaB){
                         alert("Ambos os hospitais estão com o mesmo número de atendimentos, vá para o hospital A que é mais próximo. ")
                         hospitalA = hospitalA +1;
                         hospEscolha = "A";
                         window.location.href = "dados.php";
-                        document.getElementById('unidade').value = " Unidade com menor fila próximo a você: A ";
+                        document.getElementById("unidade").innerHTML = "va para a unidade A ";
                       
                        }else{
                           alert("Todos os hospitais estão com a mesma condição de atendimento, vá para o de sua preferencia.")
