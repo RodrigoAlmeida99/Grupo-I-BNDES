@@ -26,7 +26,7 @@
 
 $nome = $_POST['nome'];
 $cpf = $_POST['cpf'];
-$hospEscolha = "<script>document.write(hospEscolha)</script>"
+
 
 echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
 ?>
@@ -43,7 +43,6 @@ echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
                     <p>DZX56789</p>    
                      <img src="Imagens/qrcode.png" alt="">                
                     <h3 align="center"> Unidade com menor fila próximo a você:</h3> 
-                    echo $hospEscolha;
                     <div id="write">
 
                    
