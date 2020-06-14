@@ -36,7 +36,7 @@
                         alert("Ambos os hospitais estão com o mesmo número de atendimentos, vá para o hospital A que é mais próximo. ")
                         hospitalA = hospitalA +1;
                         window.location.href = "dados.php";
-                        document.getElementById('unidade').innerHTML = " A ";
+                        document.getElementById('unidade').innerHTML = " Unidade com menor fila próximo a você: A ";
                       
                        }else{
                           alert("Todos os hospitais estão com a mesma condição de atendimento, vá para o de sua preferencia.")
