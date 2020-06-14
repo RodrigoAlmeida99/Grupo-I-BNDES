@@ -27,6 +27,7 @@
 $nome = $_POST['nome'];
 $cpf = $_POST['cpf'];
 
+
 echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
 ?>
   
@@ -44,7 +45,7 @@ echo "<b>Nome:</b>  $nome <br/> <b>CPF:</b> $cpf";
                     <h3 align="center"> Unidade com menor Fila próximo a você:</h3> 
                     <div id="write">
 
- 
+                   
                     
 
 
